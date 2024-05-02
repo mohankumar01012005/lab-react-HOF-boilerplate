@@ -1,9 +1,5 @@
-.Data{
-  border: 1px solid white;
-
-
-}
-.ul{
-  display: flex;
-  flex-direction: column;
+.main{
+  padding: 2rem;
+  border: 1px dashed black;
+  margin: 20px 40%;
 }
