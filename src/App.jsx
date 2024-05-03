@@ -1,10 +1,10 @@
 import './App.css';
-import LikeImage from './components/LikeImage';
-import LikePost from './components/LikePost';
-import Renderprops from './components/Renderprops';
-import LikeImageHoc from './components/LikeImageHOC';
-import LikePostHoc from './components/LikepostHOC';
-import HOC from './components/HOC';
+import LikeImage from '../src/Components/LikeImage';
+import LikePost from '../src/Components/LikePost';
+import Renderprops from '../src/Components/Renderprops';
+import LikeImageHoc from '../src/Components/LikeImageHoc';
+import LikePostHoc from '../src/Components/LikePostHoc';
+import HOC from '../src/Components/HOC';
 
 const HocLikeImage = HOC(LikeImageHoc);
 const HocLikePost = HOC(LikePostHoc);
