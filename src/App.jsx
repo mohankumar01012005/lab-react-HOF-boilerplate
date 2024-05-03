@@ -17,8 +17,8 @@ function App() {
       <div className='main'>
       <h1>Some Blog</h1>
         <br />
-        {/* Like image and Like Post using render props */}
-        <h3>With Render Props </h3>
+       
+        <h3>With Render Prop </h3>
         <Renderprops render={(increase,count)=>{
           return <LikeImage handleimgcount={increase} imagecount={count}/>
         }} />
@@ -26,7 +26,7 @@ function App() {
           return <LikePost handlepostcount={increase} postcount={count}/>
           }} />
     
-      {/* Like image and Like Post using higher order components  */}
+
             <h3>With HOC</h3>
             <HocLikeImage />
             <HocLikePost />
