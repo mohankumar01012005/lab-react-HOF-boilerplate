@@ -8,4 +8,4 @@ const LikeImageHoc = (props) => {
   )
 }
 
-export default LikeImageHoc
+export default LikeImageHoc 
